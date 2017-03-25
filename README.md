@@ -5,21 +5,21 @@ Project also for Functional Programming Course at AGH UST.
 
 
 
-Installation
+# Installation
 1.Install gnuplot first, you can download it from http://www.gnuplot.info/
 
 stack build
 stack install
 
-Running
+# Running
 
 stack exec LShape-exe n | gnuplot -p
 where n is the number of divisions
 
-Generating documentation
+# Generating documentation
 
 stack haddock
 
-Running tests
+# Running tests
 
 stack test
